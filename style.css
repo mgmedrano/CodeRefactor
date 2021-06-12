@@ -1,29 +1,30 @@
+/* Universal styling as box with border*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Entire body background applied*/
 body {
     background-color: #d9dcd6;
 }
-
+/* Header Class only styling*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Class ID in header is inline with same font-size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Class ID displayed color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Class ID header and navigation provides padding and margin that aligns right with same font size and family*/ 
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -60,7 +61,7 @@ a {
     text-decoration: none;
 }
 
-figcaption {
+p {
     font-size: 16px;
 }
 
@@ -133,25 +134,7 @@ figcaption {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
