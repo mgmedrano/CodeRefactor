@@ -1,30 +1,30 @@
-/* Universal styling as box with border*/
+/* Universal sizing*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Entire body background applied*/
+/* Element display for body background color*/
 body {
     background-color: #d9dcd6;
 }
-/* Header Class only styling*/
+/* Class selector with applied padding, font family, background color, and color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Class ID in header is inline with same font-size*/
+/* Class selector specified display and font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Class ID displayed color*/
+/* Class selector color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Class ID header and navigation provides padding and margin that aligns right with same font size and family*/ 
+/* Class specified padding, margin, position, font family and size*/ 
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,16 +32,16 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*List style provide no bullets*/
+/*Class specified style type. In this case not bulleted*/
 .header div ul {
     list-style-type: none;
 }
-/* Class ID displays inline with margin area left having text separated*/
+/* Class specified display with margin from left*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Class specified size, margin, and position*/
 .hero {
     height: 800px;
     width: 100%;
@@ -50,31 +50,32 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+/* Class specified width and display with margin from left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* link element defined color with no decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* paragraph element font size*/
 p {
     font-size: 16px;
 }
-
+/* Class specified position with margin on right*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Class specified position with margin from left*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Class specified size, position, font, and background color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,23 +86,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Class specified margin and color*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Tag header specified margin-bottom and alignment*/
 aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Tag image display, margin, and max-width*/
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* CLass specified margin, padding, size, font, background color, and color*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,23 +111,23 @@ aside img {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Class image specified height*/
 .content img {
     max-height: 200px;
 }
-
+/*Class heading element margin bottom and font size*/
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Class footer padding, font, and text alignment*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Class footer element font size*/
 .footer h2 {
     font-size: 20px;
 }
