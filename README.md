@@ -1,20 +1,18 @@
-# CodeRefactor
+# CodeRefactor: On-The-Job Ticket: 
 
-## On-The-Job Ticket 
+A Marketing Agency has requested their website be reviewed to be optimized for search engines.
 
-## Marketing Client Request:
-- Site accessiblity to optimize search engine
-
-## Acceptance Criteria
-- Semantic HTML elements in source code
-- HTML Elements logically structured independent of styling and positioning
-- Alt attribues for images
-- Heading attributes in sequential order
-- Title Element given
-
-
+##Current Status
 > Site Preview
 ![example](assets/images/01-html-css-git-homework-demo.png)
 
-## URL: 
-- https://mgmedrano.github.io/CodeRefactor/
+##<u>Plan</u>
+- Review HTML & CSS and apply any code improvements
+- Ensure semantic HTML elements are applied when source code is viewed
+- HTML Elements follow a logical structure 
+- Image elements provide an "alt" attribute
+- Heading attributes fall in a sequential order
+- A concise title element is given
+
+##Final Product 
+- URL: https://mgmedrano.github.io/CodeRefactor/
